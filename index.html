@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile </title>
+    <link rel="shortcut icon" href="/img/photo.jpg" type="image/x-icon">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+</head>
+<body onunload="fun()">>
+    <!-- ========== Start welcome ========== -->
+    <script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+        function fun() {
+            var msg = new SpeechSynthesisUtterance();
+            msg.text = "welcome to MR VIGNESH G public portfolio";
+            window.speechSynthesis.speak(msg);
+        }
+        function contact() {
+            var msg = new SpeechSynthesisUtterance();
+            msg.text = "sorry now it not in under condition try by the below social media accunts";
+            window.speechSynthesis.speak(msg);
+            alert("sorry its currently under maintenance")
+        }
+function play(){
+var audio = new Audio('assets/no.mp3');
+  audio.play();
+}
+    </script>
+
+
+    <!-- ========== Header Section ========== -->
+    <section id="home" data-aos="fade-down" >
+    <nav>
+        <ul>
+            <a href="index.html" class="a">Home</a>
+            <a href="about.html" class="a">About</a>
+            <a href="skills.html" class="a">Skills</a>
+            <a href="qualification.html" class="a">Qualification</a>
+            <a href="contact.html" class="a">Contact</a>            
+        </ul>
+    </nav>
+    <!-- ========== End header section ========== -->
+        <!-- ========== Home Section ========== -->
+    <div class="home">
+        <div class="home-content" data-aos="fade-down">
+            <img src="/img/photo.jpg" alt="" class="home-content__img" >
+            <div class="home-content__para" data-aos="fade-right" data-aos-delay="400">
+                <h1>Welcome , </h1>
+                <p>G.VIGNESH <br> web developer</p>
+            </div>
+        </div>
+    </div>
+    <!-- ========== End home section ========== -->    
+</section>
+<!-- ========== footer section ========== -->
+<footer data-aos="zoom-out-down">
+    <p class="footer_title" data-aos="fade-down">VIGNESH</p>
+    <br>
+    <div class="contact-content__icons">
+        <a href=https://instagram.com/vishnu.8110952376?igshid=YTQwZjQ0NmI0OA="" target="blank"><i class="fa fa-instagram"></i></a>
+        <a href="" target="blank"><i class="fa fa-github"></i></a>
+        <a href="https://instagram.com/vishnu.8110952376?igshid=YTQwZjQ0NmI0OA==" target="blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://instagram.com/vishnu.8110952376?igshid=YTQwZjQ0NmI0OA==" target="blank"><i class="fa fa-facebook"></i></a>
+        
+        <a href="mailto: vigneshgvignesh05@gmail.com" target="blank"><i class="fa fa-google"></i></a>
+    </div>
+    <h2>&copy; 2023 copyright all right reserved</h2>
+</footer>
+<!-- ========== End footer section ========== -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="/assets/js/main.js"></script>
+
+<script>
+    AOS.init({
+      duration: 1200,
+      once: false,
+    });
+  </script>
+</body>
+</html>
