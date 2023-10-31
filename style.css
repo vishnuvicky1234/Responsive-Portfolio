@@ -8,7 +8,7 @@ html{
 }
 
 body{
-    background-image: url(/img/background.jpg);
+    background-image: url(background.jpg);
 
 }
 /***** home *****/
@@ -57,7 +57,7 @@ a:hover{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-image: url(/assets/img/background.jpg);
+    background-image: url(background.jpg);
     border-radius: 15px;
     box-shadow: 10px 10px 20px #050506, -10px -10px 20px #151516;
 }
